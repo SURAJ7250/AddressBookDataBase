@@ -49,3 +49,8 @@ select * from AddressBook
 where city='pune'
 
 select * from AddressBook
+
+------------------UC7-----------------------
+
+select count('city') from AddressBook
+select count('state') from AddressBook
