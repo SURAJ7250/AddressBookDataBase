@@ -15,3 +15,13 @@ email varchar(200)
 )
 
 select * from AddressBook
+
+-----------------UC3-----------------
+
+insert into AddressBook(firstname,lastname,address,city,state,zip,phoneno,email) values('Suraj','Sinha','Karve Nagar','Pune','MH',456,33344,'surajnsinha@gmail.com')
+insert into AddressBook(firstname,lastname,address,city,state,zip,phoneno,email) values('Shubham','Kumar','Hadapsar','Pune','MH',460,33344,'shubham@gmail.com')
+insert into AddressBook(firstname,lastname,address,city,state,zip,phoneno,email) values('Shivam','Bhatarkar','Sarojini nagar','Delhi','DL',456,33344,'shivam078@gmail.com')
+insert into AddressBook(firstname,lastname,address,city,state,zip,phoneno,email) values('Priyanka','sinha','Kolkata','Kolkata','KL',456,33344,'priyanka897@gmail.com')
+insert into AddressBook(firstname,lastname,address,city,state,zip,phoneno,email) values('Aman','Singh','Narhe','Pune','MH',456,33344,'aman@gmail.com')
+
+select * from AddressBook
