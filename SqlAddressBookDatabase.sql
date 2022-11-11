@@ -34,3 +34,9 @@ set lastname='sinha'
 where firstname='Aman'
 
 select * from AddressBook
+
+------------------------UC5-----------------
+delete from AddressBook
+where firstname='Priyanka'
+
+select * from AddressBook
