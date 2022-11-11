@@ -40,3 +40,12 @@ delete from AddressBook
 where firstname='Priyanka'
 
 select * from AddressBook
+
+------------------------UC6-----------------
+select * from AddressBook
+where address='Karve Nagar'
+
+select * from AddressBook
+where city='pune'
+
+select * from AddressBook
